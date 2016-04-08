@@ -21,7 +21,6 @@
 	    {
 	    	/* initializaing variables */
 	    	int N = board.size() / 2;
-	    	cout << "Value of N:" <<  N << endl;
 	     	int AliceCounterArray[N];
 	     	int BobCounterArray[N];
 
@@ -95,18 +94,6 @@
 	     		/* increment and decrement indexing variables accordingly */
 	     		++i;
 	     		--j;
-	     	}
-
-	     	cout << "\nAliceArray" << endl;
-	     	for (int o = 0; o < N; ++o)
-	     	{
-	     		cout << AliceCounterArray[o] << endl;
-	     	}
-
-	     	cout << "BobArray" << endl;
-	     	for (int o = 0; o < N; ++o)
-	     	{
-	     		cout << BobCounterArray[o] << endl;
 	     	}
 
 	     	for (int y = N - 1; y >= 0; --y)
