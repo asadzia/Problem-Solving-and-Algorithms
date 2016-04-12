@@ -5,7 +5,7 @@
 * Created By: Asad Zia
 */
 
-#include "test.cpp"
+#include "ABoardGame.cpp"
 
 int main ()
 {
