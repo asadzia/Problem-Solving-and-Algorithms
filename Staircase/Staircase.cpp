@@ -33,6 +33,12 @@ void fun(int i, int j)
     }    
     
     int n = i - j + 1;
+    int x = i - n;
+    while (x > 0)
+    {
+        cout << " ";
+        x--;
+    }
     
     while (n > 0)
     {
@@ -48,7 +54,6 @@ int main(){
     int n;
     cin >> n;
     fun(n, n);
-    
     
     return 0;
 }
