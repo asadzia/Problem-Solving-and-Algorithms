@@ -71,6 +71,10 @@ long arrayManipulation(int n, vector<vector<int>> queries) {
 
     for (int i = 0; i < queries.size(); ++i)
     {
+	 /*
+	 you are adding sum to a[p] and adding negative sum at a[q+1]. which make sure that when you add element from a[p] to a[q] sum is added only once and it should be subtracted at a[q+1] as this sum span from p to q only. Rest array element are either 0 or some other input sum. max of addition will be output. refer to above code for p, q, and sum.
+	 */
+	    
         // upperbound 
         vec[queries[i][0] - 1] += queries[i][2];
 
